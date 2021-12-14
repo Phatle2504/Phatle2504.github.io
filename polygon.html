@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<style>
+
+    html{
+
+        background-color: rgb(255, 185, 185);
+
+        }
+
+    img{
+
+        width: 80%;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h1{
+
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    background-color: rgba(182, 159, 212, 0.568);
+
+    }
+
+    h2{
+
+    text-align: center;
+    left: 50px;
+
+    }
+
+    #button{
+
+    background-color: rgba(182, 159, 212, 0.568);
+    width: 50%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+    .footer1{
+        position:absolute;
+    text-align: center;
+    bottom: 70px;
+    width:100%;
+    height:60px;   /* Height of the footer */
+   
+    }
+
+    .footer2{
+
+    position:absolute;
+    text-align: center;
+    bottom: 0px;
+    width:100%;
+    height:60px; 
+    }
+
+    .footer3{
+
+    position:absolute;
+    text-align: center;
+    bottom:25px;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    
+    }
+
+    .copyright{
+   width: 25px;
+   height: 25px;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+
+    }
+
+</style>
+
+
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Name the Polygon</title>
+
+        <script>
+
+        function nameThePolygon(){
+
+        var number = parseFloat(prompt("Welcome ! The Peaceful Lion would like your number. Please enter a number from 1 to 10:"));
+                number = Math.abs(Math.round(number));
+        switch (number.toString()){
+
+            case "1":
+
+            alert("This is Henagon");
+
+            break;
+
+            case "2":
+
+            alert("This is Digon");
+
+            break;
+
+            case "3":
+
+            alert("This is Trigon");
+
+            break;
+
+            case "4":
+
+            alert("This is Tetragon");
+
+            break;
+
+            case "5":
+
+            alert("This is Pentagon");
+
+            break;
+
+            case "6":
+
+            alert("This is Hexagon");
+
+            break;
+
+            case "7":
+
+            alert("This is Heptagon");
+
+            break;
+
+            case "8":
+
+            alert("This is Octagon");
+
+            break;
+
+            case "9":
+
+            alert("This is Enneagon");
+
+            break;
+
+            case "10":
+
+            alert("This is Decagon");
+
+            break;
+
+            default:
+
+            alert("Invalid number");
+
+        }
+
+        }
+
+        </script>
+
+</head>
+
+<body>
+    <main>
+        
+    <div><h1>Peaceful Lion Co.</h1><img class="lionpic" src="https://openclipart.org/download/308923/1540584442.svg" 
+        height="300"width="300"/></div>
+
+    <div><h2>Phat Le -- ITIS3135</h2></div>
+
+    <div> <button id="button" class="polygon" onclick="nameThePolygon()">Name the Polygon</button></div>
+    
+    <footer class="footer1">
+        Page created by Peaceful Lion Co. 2021 <img class="copyright" src="https://i.postimg.cc/52ZXtr10/220px-Copyright-svg.png"/>
+    </footer>
+    <footer class="footer3">
+        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> ||
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fple9%2Fitis3135%2Fpolygon.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Validate CSS</a>
+     </footer>
+     <footer class="footer2"><a href="https://github.com/Phatle2504">Github</a>  || <a href="https://phatle2504.github.io/">Github.io</a>
+        || <a href="https://www.freecodecamp.org/ple9">FreeCodeCamp</a>
+        || <a href="https://webpages.uncc.edu/ple9/">Charlotte.edu</a></footer>
+        
+    </main>
+</body>
+</html>
+
